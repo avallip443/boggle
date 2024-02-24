@@ -31,5 +31,3 @@ gameBoard := #(#($e $a) #($s $t)). "Example 2x2 game board"
 legalWords := #( 'word1' 'word2' 'word3' ... ). "List of legal words"
 
 result := boggleSolver search: gameBoard for: legalWords.
-
-
